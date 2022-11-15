@@ -1,0 +1,77 @@
+.Nav {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  font-family: "Lato", sans-serif;
+
+  background: rgba(244, 151, 218, 0.43137254901960786);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+}
+
+.Nav table {
+  width: 85%;
+  border-collapse: collapse;
+  text-align: center;
+  align-self: center;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.Nav table thead {
+  font-weight: bold;
+  table-layout: fixed;
+}
+
+.Nav table td {
+  width: 25%;
+}
+
+.Nav h1,
+.Nav h2 {
+  margin-bottom: 32px;
+  align-self: center;
+  color: #ffffff;
+}
+
+.Nav img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 0px solid #fff;
+  box-shadow: 4px 4px 10px 0px gray;
+  align-self: center;
+  margin-bottom: 32px;
+}
+
+.Nav ul {
+  list-style: none;
+}
+
+.Nav ul li {
+  display: flex;
+}
+
+.Nav ul li a {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  text-decoration: none;
+  font-size: 1.35rem;
+  padding-left: 10px;
+  color: #ffffff;
+  padding-left: 32px;
+  margin-bottom: 8px;
+  align-items: center;
+  transition: 0.75s;
+}
+
+.Nav ul li a:hover {
+  background-color: #ffffff6b;
+}
+
+.Nav ul li a span {
+  margin-left: 16px;
+}
